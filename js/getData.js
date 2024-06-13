@@ -5,7 +5,7 @@ window.onload = function(){
     $(".repos").toggle();
     $("#dropdown").click(function (e) { 
       $(".repos").slideToggle(1000);
-      
+      $("#dropdown").toggleClass('rotate');
     });
 }
 
