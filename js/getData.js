@@ -1,7 +1,23 @@
 window.onload = function(){
     getUserInfo();
     getRepos();
+    const repos = document.getElementById("repos");
+    const dropdown = document.getElementById("dropdown");
+    console.log(dropdown);
+
+    dropdown.addEventListener("click", function(){
+      console.log("si");
+      if(repos.style.display === "inline-flex"){
+        repos.style.display = "none";
+        dropdown.style.transform = "rotate(0deg)";
+      }else{
+        repos.style.display = "inline-flex";
+        dropdown.style.transform = "rotate(180deg)";
+      }
+      
+    })
 }
+
 
 async function getUserInfo(){
     const container = document.getElementById("user");
