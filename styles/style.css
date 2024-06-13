@@ -46,7 +46,10 @@
     .container {
         padding: 2px 16px;
       }
-
+    
+    #dropdown{
+        cursor: pointer;
+    }
     .rotate {
         -webkit-transform: rotate(180deg);
         -moz-transform: rotate(180deg);
