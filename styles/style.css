@@ -40,6 +40,19 @@
     .container {
         padding: 2px 16px;
       }
+
+    @media screen and (max-width: 700px){
+        #repos{
+            margin: 0 auto;
+            display: flex;
+            max-width: 100%;
+            flex-wrap: wrap;
+        }
+
+        section{
+            width: 80%;
+        }
+    }
       
     
 
