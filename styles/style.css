@@ -2,6 +2,8 @@
         color-scheme: light dark;
     }
 
+    
+
     body{
         display: grid;
         place-content: center;
@@ -21,15 +23,15 @@
         transform: scale(105%);
     }
 
-    #repos{
-        display: none;
+    .repos{
         margin-top: 15px;
-        /**display: inline-flex;*/
+        display: inline-flex;
         max-width: 100%;
         flex-wrap: wrap;
-    }
+    }    
+
     section{
-        width: 24%;
+        width: 48%;
         margin: 0 auto;
         display: flex;
         justify-content: center;
