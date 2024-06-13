@@ -5,7 +5,7 @@ window.onload = function(){
 
 async function getUserInfo(){
     const container = document.getElementById("user");
-    return await fetch("https://api.github.com/users/claudiapf7")
+    return await fetch("https://api.github.com/users/claudiapol")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -21,7 +21,7 @@ async function getUserInfo(){
 
 async function getRepos(){
     const container = document.getElementById("repos");
-    return await fetch("https://api.github.com/users/claudiapf7/repos")
+    return await fetch("https://api.github.com/users/claudiapol/repos")
       .then((res) => res.json())
       .then(
         (result) => {
